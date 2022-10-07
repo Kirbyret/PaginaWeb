@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing-ka</title>
+    <link rel="stylesheet" href="/css/estiloPW.css">
+</head>
+<body>
+    <div id="contenido">
+        <body>
+            <div id="encabezado">
+                <header>
+                    <h1><center>
+                        <br>
+                        Clothing-ka
+                    </center></h1>
+                </header>
+            </div>
+
+            <div id="BarraNavegacion">
+                <nav>
+                    <ul>
+                        <li> <a href="/indexPW.html">Inicio</a></li>
+                        <li> <a href="/html/empresa.html">Empresa</a></li>
+                        <li> <a href="/html/productos.html">Productos</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="contenido2" style="background-color: rgb(236, 17, 35);width: 1235px; font-family: Verdana, Geneva, sans-serif">
+                <section>
+                    <br>
+                    <br>
+                    <center>
+                    <form action="2020030313@upsin.edu.mx" method="get">
+                        <label for="Nombre">Nombre</label>
+                            <input type="text" id="nombre" name="nombre" required="true" style="font-family: Verdana, Geneva, sans-serif" placeholder="Escribe tu nombre">
+                        <br>
+                        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+                            <input type="date" id="fechaNac" name="fechaNac" max="2022-12-01" min="2022-01-01" style="font-family: Verdana, Geneva, sans-serif">  
+                        <br>
+                        <label for="Lugar de Nacimiento">Lugar de Nacimiento</label>
+                            <input list="estados" id="estado" name="estado">
+                            
+                            <datalist id="estados">
+                                <option value="Sinaloa"></option>
+                                <option value="San Luis Potosí"></option>
+                                <option value="Sonora"></option>
+                                <option value="Durango"></option>
+                                <option value="Nayarit"></option>
+                                <option value="Jalisco"></option>
+                                <option value="Aguascalientes"></option>
+                            </datalist>   
+                            <br>
+                            <p style="background-color: rgb(236, 17, 35);width: 1235px;">
+                            <label for="sexo">Sexo</label>
+                            <br>
+                            <label for="Maculino">Masculino</label>
+                                <input type="radio" id="masculino" name="sexo">
+                            <label for="Femenino">Femenino</label>
+                                <input type="radio" id="femenino" name="sexo">
+                                
+                            </p>
+                            <p style="background-color:rgb(236, 17, 35);width: 1235px;">
+                                <label for="Estado civil">Estado Civil</label>
+                                <br>
+                                <label for="Soltero">Soltero</label>
+                                    <input type="checkbox" id="soltero" value="1">
+                                <br>
+                                <label for="Casado">Casado</label>
+                                    <input type="checkbox" name="casado" id="casado" value="2">
+                                <br>
+                                <label for="Viudo">Viudo</label>
+                                    <input type="checkbox" name="viudo" id="viudo" value="3">
+                            </p>
+                            <br>
+                            <textarea name="comentarios" id="comentarios" cols="30" rows="20" style="font-family: Verdana, Geneva, sans-serif"> Escribenos tus comentarios</textarea>
+                                <br>
+                                <input type="submit" value="Enviar informacion" style="font-family: Verdana, Geneva, sans-serif;">
+                                <input type="reset" value="Limpiar">
+                    </form>
+                </center>
+                </section>
+            </div>
+            
+            <div id="piepagina">
+                <footer>
+                    <h3><center>Paola Emiret Valdez Martinez</center></h3>
+                </footer>
+            </div>
+        </body>
+    </div>
+</body>
+</html>
