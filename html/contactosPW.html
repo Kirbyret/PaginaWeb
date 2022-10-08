@@ -8,89 +8,70 @@
     <link rel="stylesheet" href="/css/estiloPW.css">
 </head>
 <body>
-    <div id="contenido">
-        <body>
-            <div id="encabezado">
-                <header>
-                    <h1><center>
-                        <br>
-                        Clothing-ka
-                    </center></h1>
-                </header>
-            </div>
 
-            <div id="BarraNavegacion">
-                <nav>
-                    <ul>
-                        <li> <a href="/indexPW.html">Inicio</a></li>
-                        <li> <a href="/html/empresa.html">Sobre Nosotros</a></li>
-                        <li> <a href="/html/productos.html">Productos</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div id="contenido2" style="background-color: rgb(236, 17, 35);width: 1235px; font-family: Verdana, Geneva, sans-serif">
-                <section>
-                    <br>
-                    <br>
-                    <center>
-                    <form action="2020030313@upsin.edu.mx" method="get">
-                        <label for="Nombre">Nombre</label>
-                            <input type="text" id="nombre" name="nombre" required="true" style="font-family: Verdana, Geneva, sans-serif" placeholder="Escribe tu nombre">
-                        <br>
-                        <label for="Fecha de nacimiento">Fecha de nacimiento</label>
-                            <input type="date" id="fechaNac" name="fechaNac" max="2022-12-01" min="2022-01-01" style="font-family: Verdana, Geneva, sans-serif">  
-                        <br>
-                        <label for="Lugar de Nacimiento">Lugar de Nacimiento</label>
-                            <input list="estados" id="estado" name="estado">
-                            
-                            <datalist id="estados">
-                                <option value="Sinaloa"></option>
-                                <option value="San Luis Potosí"></option>
-                                <option value="Sonora"></option>
-                                <option value="Durango"></option>
-                                <option value="Nayarit"></option>
-                                <option value="Jalisco"></option>
-                                <option value="Aguascalientes"></option>
-                            </datalist>   
-                            <br>
-                            <p style="background-color: rgb(236, 17, 35);width: 1235px;">
-                            <label for="sexo">Sexo</label>
-                            <br>
-                            <label for="Maculino">Masculino</label>
-                                <input type="radio" id="masculino" name="sexo">
-                            <label for="Femenino">Femenino</label>
-                                <input type="radio" id="femenino" name="sexo">
-                                
-                            </p>
-                            <p style="background-color:rgb(236, 17, 35);width: 1235px;">
-                                <label for="Estado civil">Estado Civil</label>
-                                <br>
-                                <label for="Soltero">Soltero</label>
-                                    <input type="checkbox" id="soltero" value="1">
-                                <br>
-                                <label for="Casado">Casado</label>
-                                    <input type="checkbox" name="casado" id="casado" value="2">
-                                <br>
-                                <label for="Viudo">Viudo</label>
-                                    <input type="checkbox" name="viudo" id="viudo" value="3">
-                            </p>
-                            <br>
-                            <textarea name="comentarios" id="comentarios" cols="30" rows="20" style="font-family: Verdana, Geneva, sans-serif"> Escribenos tus comentarios</textarea>
-                                <br>
-                                <input type="submit" value="Enviar informacion" style="font-family: Verdana, Geneva, sans-serif;">
-                                <input type="reset" value="Limpiar">
-                    </form>
-                </center>
-                </section>
-            </div>
-            
-            <div id="piepagina">
-                <footer>
-                    <h3><center>Paola Emiret Valdez Martinez</center></h3>
-                </footer>
-            </div>
-        </body>
+    <div id="Encabezado">
+        <header>
+            <h1>
+                <br>
+                Clothing-ka
+                <br>
+            </h1>
+        </header>
     </div>
+
+    <nav id="BarraNavegacion">
+            <a href="/html/indexPW.html">Inicio</a>
+            <a href="/html/productosPW.html">Productos</a>
+            <a href="/html/empresaPW.html">Sobre Nosotros</a>
+        </nav>
+        <br>
+        <h2 class="encabezadoportada">
+            <p>
+                Contacto
+            </p>
+        </h2>
+        <br>
+        <form action="2020030313@upsin.edu.mx" method="get">
+        <h2>
+        <br>
+        <div class="texto">
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required="true" placeholder="Escribe tu nombre">
+        <br>
+        <br>
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" id="Apellidos" name="Apellidos" required="true" placeholder="Escribe tus Apellidos">
+        <br>
+        <br>
+        <label for="Edad">Edad:</label>
+        <input type="text" id="Edad" name="Edad" required="Edad" placeholder="(+18)">
+        <br>
+        <br>
+        <label for="Telefono">Telefono:</label>
+        <input type="text" id="Telefono" name="Telefono" required="Telefono" placeholder="+52 **********">
+        <br>
+        <br>
+        <label for="Correo">Correo:</label>
+        <input type="text" id="Correo" name="Correo" required="true" placeholder="Ingresa tu correo">
+        <br>
+        <br>
+        <br>
+        <label for="Citas">Fecha:</label>
+        <input type="date" id="Fecha" name="Fecha" max="2025-01-01" min="2022-01-01">
+        <br>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="40" rows="10">Comentarios</textarea>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpíar">
+        </div>
+        </h2>
+        </form>
+
+        <br>
+        <footer class="piepagina">
+            <h3><center>Paola Emiret Valdez Martinez</center></h3>
+                    <br>
+            </footer>
 </body>
 </html>
