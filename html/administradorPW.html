@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="5828" content="width=device-width, initial-scale=1.0">
+    <title>Clothing-ka</title>
+    <link rel="stylesheet" href="/css/estiloPW.css">
+    <script src="/js/main3.js" type="module"></script>
+    <script src="/js/main.js" type="module"></script>
+</head>
+<body>
+
+    <div id="Encabezado">
+        <header>
+            <h1>
+                <br>
+                Clothing-ka
+                <br>
+            </h1>
+        </header>
+    </div>
+
+        <nav id="BarraNavegacion">
+            <a href="/html/productosPW.html">Productos</a>
+            <a href="/html/empresaPW.html">Sobre Nosotros</a>
+            <a href="/html/contactosPW.html">Contacto</a>
+        </nav>
+        <section>
+            <form class="formulario2" id="login"  >
+                <fieldset>
+                    <legend>REGISTRO DE PRODUCTOS <br> INSERTE SUS DATOS</legend>
+                    <div class="contenedor-campos2">
+                        <div class="campo">
+                            <label>Correo:</label>
+                            <input id="usuario" class="input-text" type="text" >
+                        </div>
+    
+                        
+    
+                        <div class="campo">
+                            <label>Contraseña:</label>
+                            <input id="contraseña" class="input-text" type="password">
+                        </div>
+    
+                        <div class="campo">
+                            <input type="text" id="verificador" hidden>
+                        </div>
+                
+                        
+                    </div> <!-- .contenedor-campos -->
+    
+                    <div class="alinear-derecha flex">
+                        <input class="boton w-sm-100" type="button" value="Iniciar Sesion" id="iniciar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>    
+        <section>
+
+            <form id="formulario" class="formulario2" style="display:none;" >
+              
+                    <legend>Clothing-Ka</legend>
+    
+                    <div class="contenedor-campos2">
+                        <div class="campo">
+                            <label>Id:</label>
+                            <input id="id" class="input-text2" type="text" >
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Nombre :</label>
+                            <input id="nombre" class="input-text2"type="text">
+                        </div>
+                        <div class="campo">
+                            <label for="">Descripción:</label>
+                            <input id="descripcion" class="input-text2" type="text">
+                        </div>
+                        <div class="campo">
+                            <label for="">Cantidad:</label>
+                            <input id="cantidad" class="input-text2" type="number" >
+                        </div>
+                        
+                        <div class="campo">
+                            <label for="">Estatus:</label>
+                            <select name="" id="estatus" class="input-text2" disabled >
+                                <option value="0">Activo</option>
+                                <option value="1">No Activo</option>
+                            </select>
+                        </div>
+                        <div class="campo">
+                            <label for="">Precio</label>
+                            <input  class="input-text2" type="number"  id="precio">
+                        </div>
+                        <div class="campo">
+                          
+                            
+                            <label>Imagen:</label>
+                            <img class="carta" id="imagenp" src="" alt="">
+    <br>
+    
+        
+                            <input id="url" class="input-text2" type="text" placeholder="URL"  readonly="true">
+                            <br>
+                            <input id="archivo" type="file" class="input-text2" accept=".jpg,.jpeg,.png">
+                        </div>
+                
+                        
+                    </div> 
+    
+                    <div class="alinear-izquierda flex">
+                        <input class="boton3 w-sm-100" type="button" value="Registrar" id="registrar" >
+                        <input class="boton3 w-sm-100" type="button" value="Buscar" id="buscar" >
+                        <input class="boton3 w-sm-100" type="button" value="Modificar" id="modificar" >
+                        <input class="boton3 w-sm-100" type="button" value="Eliminar" id="borrar" >
+                        <input class="boton3 w-sm-100" type="button" value="Limpiar" id="limpiar" > 
+                        
+                    </div>
+           
+            </form>
+        </section>
+       
+       
+       
+        
+    
+    <footer class="piepagina">
+        <h3><center>Paola Emiret Valdez Martinez</center></h3>
+                <br>
+        </footer>
+</body>
+</html>

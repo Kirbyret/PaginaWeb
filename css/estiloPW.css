@@ -12,12 +12,70 @@ body{
     text-align: center;
     color: rgb(255, 255, 255);
 }
-
+.formulario2 {
+    text-align: center;
+    background-color: rgb(38, 4, 15);
+    width: min( 50rem, 100% ); /** Utilizar el valor más pequeño **/
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: center;
+    color:white;
+   
+}
+.carta{
+    height: 100px;
+    width: 100px;
+}
+legend{
+    text-align: center;
+    font-size: 25px;
+}
 #BarraNavegacion{
     background-color: rgb(255, 255, 255);/*navegador*/
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+
+.box{
+    display: inline-flex;
+    flex-flow: column wrap;
+    border: 1px solid black;
+    border-radius: 50px 50px 50px 50px;
+    height: auto;
+    padding: 19px;
+    width: 320px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+.box img{
+    width: 200px;
+    height: 250px;
+    align-self: center;
+}
+
+
+.box h5{
+    text-align: center;
+    
+}
+
+.box h2{
+    text-align: center;
+    
+}
+.box p{
+    text-align: justify;
+}
+
+.box button{
+   margin: 0 auto;
+   
+    background-color: rgb(24, 26, 27);
+    float: right;
+    color: white;
+    
 }
 
 @media (min-width: 768px) {
